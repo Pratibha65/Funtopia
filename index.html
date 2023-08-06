@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="joke.css">
+        
+        <title>Random joke generator</title>
+    </head>
+    <body class="vh-100 overflow-hidden" style="border:1px solid black; border-width: 0.2rem;">
+       
+            
+            <div class="category-heading">Funtopia</div>
+            <div id="categories">
+                
+            
+            <button class="category-btn" data-category="Pun">Pun</button>
+            <button class="category-btn" data-category="Spooky">Spooky</button>
+            <button class="category-btn" data-category="Christmas">Christmas</button>
+            <button class="category-btn" data-category="Miscellaneous">Miscellaneous</button>
+            <button class="category-btn" data-category="Dark">Dark</button>
+            <button class="category-btn" data-category="Programming">Programming</button>
+            
+        </div>
+        <div class="jokeContainer wrapper" >
+            <span><img src="./icons8-face-with-tears-of-joy-48.png"></span>
+            <p id="joke" style="color:white;"></p>
+            </div>
+        <div class="quote">
+            <p>'A day without laughter is a day wasted'</p>
+        </div>
+
+        <script src="generator.js"></script>
+
+    </body>
+</html>
